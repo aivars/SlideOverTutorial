@@ -49,8 +49,8 @@
                         <constraint firstAttribute="width" constant="60" id="Muk-rJ-goN"/>
                     </constraints>
                 </view>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0N9A5690.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kUd-5f-cG2">
-                    <rect key="frame" x="32" y="86" width="350" height="461"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kUd-5f-cG2">
+                    <rect key="frame" x="32" y="85" width="350" height="462"/>
                 </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
@@ -70,7 +70,7 @@
         </view>
     </objects>
     <resources>
-        <image name="0N9A5690.jpg" width="1203.300048828125" height="1504.199951171875"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
