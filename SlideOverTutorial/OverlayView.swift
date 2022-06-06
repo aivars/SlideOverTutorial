@@ -41,8 +41,9 @@ class OverlayView: UIViewController {
         view.frame.origin = CGPoint(x: 0, y: self.pointOrigin!.y + translation.y)
         
         if sender.state == .ended {
+            let draggedToDismiss = (translation.y > view.frame.size.height/3.0)
             let dragVelocity = sender.velocity(in: view)
-            if dragVelocity.y >= 1300 {
+            if (dragVelocity.y >= 1300) || draggedToDismiss {
                 self.dismiss(animated: true, completion: nil)
             } else {
                 // Set back to original position of the view controller
